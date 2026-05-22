@@ -826,20 +826,27 @@ body.dark-mode .topbar {
     gap: 24px;
   }
   .reseña-card {
-    width: 100%;
-    padding: 35px 22px;
-    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 22px;
   }
   .reseña-card img {
     width: 78px;
     height: 78px;
+    margin: 0 auto 18px;
+    display: block;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .reseña-card p {
     font-size: 0.93rem;
     line-height: 1.7;
   }
   .stars {
-    font-size: 1rem;
+    margin-bottom: 14px;
   }
   .promociones {
     padding: 60px 18px;
